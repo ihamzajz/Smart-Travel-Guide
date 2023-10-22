@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">SmartTravelGuide</string>
+    <string name="logo">Creative Holidays</string>
+    <string name="slogan">Travel at its luxurious best.</string>
+    <string name="lets_get_started">LETS GET STARTED</string>
+
+    <string name="adventure_tourism">Adventure Tourism</string>
+    <string name="religious_tourism">Religious Tourism</string>
+
+
+    <string name="first_slide_desc">Scuba diving is a sport in which you can lose yourself to the beauty of the underwater world and escape gravity for a short time. </string>
+    <string name="second_slide_desc">Hiking enables us to feel fresh, healthy and sturdy. ! Hiking is a medicine for some patients while it is a good exercise for most of us.</string>
+    <string name="third_slide_desc">Hiking enables us to feel fresh, healthy and sturdy. ! Hiking is a medicine for some patients while it is a good exercise for most of us.</string>
+    <string name="fourth_slide_desc">Mountain climbing has been on the bucket list of many people. It is an activity which is considered to be very exciting and adventurous.</string>
+    <string name="todo">TODO</string>
+    <string name="a">TODO</string>
+
+    <string name="skip_btn">SKIP</string>
+    <string name="search_text">Search...</string>
+
+
+    <!--Startup Screen   Login    Signup-->
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="how_we_work">How we work</string>
+    <string name="next">Next</string>
+
+    <string name="create_account">Create Account</string>
+    <string name="fullname">Full name</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="remember_me">remember me</string>
+    <string name="forget_passowrd">forget password</string>
+
+
+    <!--Menu-->
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="all_categories">All Categories</string>
+
+
+    <string name="hotel">Hotel</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="airport">Airport</string>
+    <string name="mall">Mall</string>
+
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+
+    <!--Verify OTP-->
+    <string name="otp_verification">Verification</string>
+    <string name="otp_desc">Enter one time password send on</string>
+    <string name="otp_verifycode">verify code</string>
+    <string name="otp_code">co\nde</string>
+
+    <!--Verify OTP-->
+    <string name="forget_password_heading">Forget Password</string>
+    <string name="forget_password_detail">Provide your account email which you want to reset</string>
+
+    <!--Make Selection-->
+    <string name="make_selection">Make\nSelection</string>
+    <string name="contact_detail">Select which contact detail we should use to reset your passowrd</string>
+    <string name="via_sms">Via sms</string>
+    <string name="via_email">Via email</string>
+    <string name="new_credentials">New\nCredentials</string>
+    <string name="new_credentials_details">Your indentity has been verified set new password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Passowrd</string>
+    <string name="ok">Ok</string>
+
+    <string name="password_updated">Password\nUpdated</string>
+    <string name="password_updated_message">Your Passowrd Has Been Updated!</string>
+
+
+    <string-array name="province">
+        <item>Sindh</item>
+        <item>Punjab</item>
+        <item>Balochistan</item>
+        <item>Khyber Pakhtunkhwa</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="inbox_heading">You have no unread messages</string>
+    <string name="inbox_msg">When a user will contact you, You will see your messages here</string>
+
+    <string name="welcomeadmin">Welcome to \nAdminDashboard</string>
+    <string name="title_activity_categories_user_viewall">CategoriesUserViewall</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_hotel_add">HotelAdd</string>
+
+</resources>

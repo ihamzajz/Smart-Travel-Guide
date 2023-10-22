@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PopularCitiesAdd"
+    android:orientation="vertical"
+    android:background="@drawable/gradientgrain">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="550dp"
+    app:cardCornerRadius="15dp"
+    android:elevation="20dp"
+    android:layout_margin="30dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add new city"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"/>
+        <ImageView
+            android:id="@+id/p_city_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/upload_img_icon"
+            android:layout_gravity="center"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/p_city_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City name"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:hintTextColor="@color/black"
+            android:textColorHint="@color/black"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/black"
+            app:boxStrokeWidthFocused="2dp"
+            app:boxStrokeColor="@color/black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout> <!--city name-->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/p_city_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City description"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:hintTextColor="@color/black"
+            android:textColorHint="@color/black"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/black"
+            app:boxStrokeWidthFocused="2dp"
+            app:boxStrokeColor="@color/black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout> <!--city desc-->
+        <Spinner
+            android:id="@+id/p_city_province"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            style="@style/spinner_style"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/p_city_uploadbtn"
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            android:text="ADD"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/colorPrimary" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+
+<!--    <Button-->
+<!--        android:id="@+id/p_city_uploadbtn"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Upload"-->
+<!--        android:background="@color/pr"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:elevation="5dp"-->
+<!--        android:textColor="@color/white" />-->
+
+
+
+
+
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/p_city_no"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_weight="1"-->
+    <!--        android:hint="enter number"/>-->
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:icon="@drawable/home_fragment_icon"
+        android:id="@+id/adminhome"/>
+
+    <item android:title="Pofile"
+        android:icon="@drawable/profile_fragment_icon"
+        android:id="@+id/adminprofile"/>
+
+    <item android:title="Inbox"
+        android:icon="@drawable/inbox_icon"
+        android:id="@+id/admininbox"/>
+
+</menu>

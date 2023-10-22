@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuHeader"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="@color/black"/>
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/menu_name"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="62dp"-->
+<!--        android:hint="Fullname"-->
+<!--        app:boxStrokeColor="@color/colorPrimary"-->
+<!--        app:boxStrokeWidthFocused="2dp"-->
+<!--        android:textColorHint="@color/black"-->
+<!--        app:startIconDrawable="@drawable/fullname_icon"-->
+<!--        app:endIconMode="clear_text"-->
+<!--        app:endIconTint="@color/colorAccent"-->
+<!--        app:hintTextColor="@color/black"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--        app:boxCornerRadiusBottomEnd="25dp"-->
+<!--        app:boxCornerRadiusBottomStart="25dp"-->
+<!--        app:boxCornerRadiusTopStart="25dp"-->
+<!--        app:boxCornerRadiusTopEnd="25dp">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:inputType="text"/>-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/menu_email"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="62dp"-->
+<!--        android:hint="Fullname"-->
+<!--        app:boxStrokeColor="@color/colorPrimary"-->
+<!--        app:boxStrokeWidthFocused="2dp"-->
+<!--        android:textColorHint="@color/black"-->
+<!--        app:startIconDrawable="@drawable/fullname_icon"-->
+<!--        app:endIconMode="clear_text"-->
+<!--        app:endIconTint="@color/colorAccent"-->
+<!--        app:hintTextColor="@color/black"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--        app:boxCornerRadiusBottomEnd="25dp"-->
+<!--        app:boxCornerRadiusBottomStart="25dp"-->
+<!--        app:boxCornerRadiusTopStart="25dp"-->
+<!--        app:boxCornerRadiusTopEnd="25dp">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:inputType="text"/>-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+</LinearLayout>

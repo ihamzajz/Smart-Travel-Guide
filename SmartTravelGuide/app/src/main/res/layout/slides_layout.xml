@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  >
+
+
+    <ImageView
+        android:id="@+id/slider_image"
+        android:layout_width="0dp"
+        android:layout_height="400dp"
+        android:padding="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sit_back_and_relax"
+        android:contentDescription="@string/a" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/slider_heading"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="168dp"-->
+<!--        android:layout_marginEnd="185dp"-->
+<!--        android:gravity="center"-->
+<!--        android:text="@string/adventure_tourism"-->
+<!--        android:textSize="25sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/slider_image"/>-->
+    <TextView
+        android:id="@+id/slider_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="@string/adventure_tourism"
+        android:textSize="25sp"
+        android:layout_weight="1"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slider_image"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

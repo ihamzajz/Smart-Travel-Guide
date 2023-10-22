@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="@string/logout"
+                    android:icon="@drawable/ic_baseline_logout_24"/>
+
+            </group>
+
+        </menu>
+    </item>
+
+
+
+    <item android:title="Cities">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/usernav_pcities"
+                    android:title="Popular Cities"
+                    android:icon="@drawable/hotel_icon"/>
+
+                <item
+                    android:id="@+id/usernav_tcities"
+                    android:title="Trending Cities"
+                    android:icon="@drawable/tcity_icon"/>
+
+                <item
+                    android:id="@+id/usernav_cat"
+                    android:title="Categories"
+                    android:icon="@drawable/categories_icon"/>
+
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="Tools">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/usernav_gethelp"
+                    android:title="Get Help"
+                    android:icon="@drawable/get_help_icon"/>
+                <item
+                    android:id="@+id/usernav_trash"
+                    android:title="Trash"
+                    android:icon="@drawable/trash_icon"/>
+                <item
+                    android:id="@+id/usernav_setting"
+                    android:title="Setting"
+                    android:icon="@drawable/setting_icon"/>
+
+
+            </group>
+
+        </menu>
+    </item>
+
+<!--    <item android:title="share">-->
+
+<!--        <menu>-->
+<!--            <group android:checkableBehavior="none">-->
+
+<!--                <item-->
+<!--                    android:id="@+id/nav_share"-->
+<!--                    android:title="Share"-->
+<!--                    android:icon="@drawable/ic_baseline_profile_24"/>-->
+
+<!--                <item-->
+<!--                    android:id="@+id/nav_rate_us"-->
+<!--                    android:title="Rate us"-->
+<!--                    android:icon="@drawable/ic_baseline_logout_24"/>-->
+
+<!--            </group>-->
+
+<!--        </menu>-->
+<!--    </item>-->
+
+</menu>

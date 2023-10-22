@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/adminnav_logout"
+                    android:title="@string/logout"
+                    android:icon="@drawable/ic_baseline_logout_24"/>
+
+            </group>
+
+        </menu>
+    </item>
+
+
+
+    <item android:title="Cities">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/adminnav_pcities"
+                    android:title="Popular Cities"
+                    android:icon="@drawable/hotel_icon"/>
+
+                <item
+                    android:id="@+id/adminnav_tcities"
+                    android:title="Trending Cities"
+                    android:icon="@drawable/tcity_icon"/>
+                <item
+                    android:id="@+id/adminnav_cat"
+                    android:title="Categories"
+                    android:icon="@drawable/categories_icon"/>
+            </group>
+
+        </menu>
+    </item>
+
+
+    <item android:title="Outlets">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/adminnav_malls"
+                    android:title="Malls"
+                    android:icon="@drawable/malls_icon"/>
+
+                <item
+                    android:id="@+id/adminnav_airports"
+                    android:title="Airports"
+                    android:icon="@drawable/airport_icon"/>
+                <item
+                    android:id="@+id/adminnav_hotels"
+                    android:title="Hotels"
+                    android:icon="@drawable/hotel_icon"/>
+
+<!--                <item-->
+<!--                    android:id="@+id/adminnav_tcities"-->
+<!--                    android:title="Trending Cities"-->
+<!--                    android:icon="@drawable/tcity_icon"/>-->
+<!--                <item-->
+<!--                    android:id="@+id/adminnav_cat"-->
+<!--                    android:title="Categories"-->
+<!--                    android:icon="@drawable/categories_icon"/>-->
+            </group>
+
+        </menu>
+    </item>
+
+
+<!--    <item android:title="Tools">-->
+<!--        <menu>-->
+<!--            <group android:checkableBehavior="single">-->
+<!--                <item-->
+<!--                    android:id="@+id/adminnav_trash"-->
+<!--                    android:title="Trash"-->
+<!--                    android:icon="@drawable/trash_icon"/>-->
+<!--                <item-->
+<!--                    android:id="@+id/adminnav_setting"-->
+<!--                    android:title="Setting"-->
+<!--                    android:icon="@drawable/setting_icon"/>-->
+<!--                <item-->
+<!--                    android:id="@+id/adminnav_gethelp"-->
+<!--                    android:title="Get Help"-->
+<!--                    android:icon="@drawable/get_help_icon"/>-->
+<!--                <item-->
+<!--                    android:id="@+id/nav_profile"-->
+<!--                    android:title="@string/profile"-->
+<!--                    android:icon="@drawable/ic_baseline_profile_24"/>-->
+
+<!--            </group>-->
+
+<!--        </menu>-->
+<!--    </item>-->
+
+
+
+</menu>
